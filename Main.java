@@ -6,23 +6,21 @@ public class Main {
 		// TODO Auto-generated method stub
 		
 		Car car = new Car("Honda",4);
-		putGas(car);
-		startEngine(car);
-		car.destroy();
+		car.refuel();
+		car.startEngine();
+		destroyVehicle(car);
 		
 		Truck truck = new Truck("Mitsubishi",10);
-		putGas(truck);
-		startEngine(truck);
-		truck.destroy();
+		truck.refuel();
+		truck.startEngine();
+		destroyVehicle(truck);
 		
 	}
 	
-	private static void putGas(Refuelable vehicle) {
-		vehicle.refuel();
+	private static void destroyVehicle(Vehicle vehicle) {
+		vehicle.destroy();
 	}
-	private static void startEngine(Vehicle vehicle) {
-		vehicle.startEngine();
-	}
+
 
 
 }
