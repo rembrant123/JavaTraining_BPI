@@ -1,0 +1,48 @@
+2026-01-14 17:10:36.810 [INFO] com.m4.activity9.model.BankAccount - Creating account for owner: John Doe
+2026-01-14 17:10:36.813 [INFO] com.m4.activity9.model.BankAccount - Account ACC001 created successfully for John Doe
+2026-01-14 17:10:36.814 [INFO] com.m4.activity9.model.BankAccount - Creating account for owner: Jane Smith
+2026-01-14 17:10:36.814 [INFO] com.m4.activity9.model.BankAccount - Account ACC002 created successfully for Jane Smith
+2026-01-14 17:10:36.815 [INFO] com.m4.activity9.model.BankAccount - Transfer request: ACC001 -> ACC002, amount: 3000.0
+2026-01-14 17:10:36.816 [INFO] com.m4.activity9.model.BankAccount - Transfer successful: ACC001 -> ACC002, amount: 3000.0
+2026-01-14 17:10:36.816 [INFO] com.m4.activity9.model.BankAccount - Transfer request: ACC001 -> ACC999, amount: 1000.0
+2026-01-14 17:10:36.816 [WARN] com.m4.activity9.model.BankAccount - Transfer failed: destination account ACC999 not found
+2026-01-14 17:10:36.818 [INFO] com.m4.activity9.model.BankAccount - Transfer request: ACC001 -> ACC002, amount: -500.0
+2026-01-14 17:10:36.818 [WARN] com.m4.activity9.model.BankAccount - Transfer failed: invalid amount -500.0
+2026-01-14 17:10:36.821 [INFO] com.m4.activity9.model.BankAccount - Transfer request: ACC001 -> ACC001, amount: 1000.0
+2026-01-14 17:10:36.821 [WARN] com.m4.activity9.model.BankAccount - Transfer failed: same source and destination account ACC001
+2026-01-14 17:10:36.822 [INFO] com.m4.activity9.model.BankAccount - Transfer request: ACC999 -> ACC002, amount: 1000.0
+2026-01-14 17:10:36.822 [WARN] com.m4.activity9.model.BankAccount - Transfer failed: source account ACC999 not found
+2026-01-14 17:10:36.823 [INFO] com.m4.activity9.model.BankAccount - Transfer request: ACC002 -> ACC001, amount: 50000.0
+2026-01-14 17:10:36.824 [WARN] com.m4.activity9.model.BankAccount - Transfer failed: insufficient funds in account ACC002. Balance: 8000.0, Required: 50000.0
+2026-01-14 17:10:36.825 [INFO] com.m4.activity9.model.BankAccount - Creating account for owner: Bob Johnson
+2026-01-14 17:10:36.826 [WARN] com.m4.activity9.model.BankAccount - Account creation failed: account ACC001 already exists
+2026-01-14 17:10:36.826 [INFO] com.m4.activity9.model.BankAccount - Creating account for owner: Alice Brown
+2026-01-14 17:10:36.826 [WARN] com.m4.activity9.model.BankAccount - Account creation failed: account number is null or empty
+2026-01-14 17:10:36.827 [INFO] com.m4.activity9.model.BankAccount - Creating account for owner: 
+2026-01-14 17:10:36.827 [WARN] com.m4.activity9.model.BankAccount - Account creation failed: owner name is null or empty
+2026-01-14 17:10:36.828 [INFO] com.m4.activity9.model.BankAccount - Creating account for owner: Charlie Wilson
+2026-01-14 17:10:36.829 [WARN] com.m4.activity9.model.BankAccount - Account creation failed: invalid initial balance :-1000.0
+2026-01-14 17:34:44.705 [INFO] com.m4.activity9.model.BankAccount - Creating account for owner: John Doe
+2026-01-14 17:34:44.711 [INFO] com.m4.activity9.model.BankAccount - Account ACC001 created successfully for John Doe
+2026-01-14 17:34:44.713 [INFO] com.m4.activity9.model.BankAccount - Creating account for owner: Jane Smith
+2026-01-14 17:34:44.713 [INFO] com.m4.activity9.model.BankAccount - Account ACC002 created successfully for Jane Smith
+2026-01-14 17:34:44.722 [INFO] com.m4.activity9.model.BankAccount - Transfer request: ACC001 -> ACC002, amount: 3000.0
+2026-01-14 17:34:44.725 [INFO] com.m4.activity9.model.BankAccount - Transfer successful: ACC001 -> ACC002, amount: 3000.0
+2026-01-14 17:34:44.726 [INFO] com.m4.activity9.model.BankAccount - Transfer request: ACC001 -> ACC999, amount: 1000.0
+2026-01-14 17:34:44.726 [WARN] com.m4.activity9.model.BankAccount - Transfer failed: destination account ACC999 not found
+2026-01-14 17:34:44.727 [INFO] com.m4.activity9.model.BankAccount - Transfer request: ACC001 -> ACC002, amount: -500.0
+2026-01-14 17:34:44.729 [WARN] com.m4.activity9.model.BankAccount - Transfer failed: invalid amount -500.0
+2026-01-14 17:34:44.738 [INFO] com.m4.activity9.model.BankAccount - Transfer request: ACC001 -> ACC001, amount: 1000.0
+2026-01-14 17:34:44.739 [WARN] com.m4.activity9.model.BankAccount - Transfer failed: same source and destination account ACC001
+2026-01-14 17:34:44.740 [INFO] com.m4.activity9.model.BankAccount - Transfer request: ACC999 -> ACC002, amount: 1000.0
+2026-01-14 17:34:44.741 [WARN] com.m4.activity9.model.BankAccount - Transfer failed: source account ACC999 not found
+2026-01-14 17:34:44.742 [INFO] com.m4.activity9.model.BankAccount - Transfer request: ACC002 -> ACC001, amount: 50000.0
+2026-01-14 17:34:44.742 [WARN] com.m4.activity9.model.BankAccount - Transfer failed: insufficient funds in account ACC002. Balance: 8000.0, Required: 50000.0
+2026-01-14 17:34:44.744 [INFO] com.m4.activity9.model.BankAccount - Creating account for owner: Bob Johnson
+2026-01-14 17:34:44.745 [WARN] com.m4.activity9.model.BankAccount - Account creation failed: account ACC001 already exists
+2026-01-14 17:34:44.746 [INFO] com.m4.activity9.model.BankAccount - Creating account for owner: Alice Brown
+2026-01-14 17:34:44.747 [WARN] com.m4.activity9.model.BankAccount - Account creation failed: account number is null or empty
+2026-01-14 17:34:44.750 [INFO] com.m4.activity9.model.BankAccount - Creating account for owner: 
+2026-01-14 17:34:44.751 [WARN] com.m4.activity9.model.BankAccount - Account creation failed: owner name is null or empty
+2026-01-14 17:34:44.752 [INFO] com.m4.activity9.model.BankAccount - Creating account for owner: Charlie Wilson
+2026-01-14 17:34:44.752 [WARN] com.m4.activity9.model.BankAccount - Account creation failed: invalid initial balance :-1000.0
